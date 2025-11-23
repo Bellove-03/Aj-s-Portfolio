@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aj's Portfolio</title>
+
+
+  <link rel="icon" href="aj logo.jpeg" type="image/x-icon">
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+
+    #contacts {
+      background: #ccc;
+      padding: 40px 0;
+      border-top: none;
+      color: black;
+    }
+    #contacts .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    #contacts .logo {
+      font-size: 36px;
+      font-weight: 700;
+      color: #2533ff;
+      user-select: none;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+    }
+    #contacts .contact-list {
+      text-align: left;
+      font-weight: 400;
+    }
+    #contacts h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    #contacts p {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 10px 0;
+      font-weight: 500;
+      cursor: default;
+    }
+    #contacts p a {
+      color: black;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 500;
+    }
+    #contacts p a:hover {
+      text-decoration: underline;
+    }
+    #contacts img.icon {
+      width: 18px;
+      height: 18px;
+      filter: grayscale(100%) opacity(0.6);
+      transition: filter 0.3s ease;
+      user-select: none;
+    }
+    #contacts p a:hover img.icon {
+      filter: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home"><span class="brand-blue">Aj</span></a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#works">Works</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+
+      <button id="navToggle" aria-label="Toggle navigation" class="nav-toggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1>
+          Hello! I’m <strong>Andrei Joseph B. Domingo</strong>
+        </h1>
+        <p class="lead">
+          A fresh graduate of City College of Calamba with a degree of Bachelor
+          of Science Information Technology and an NC III passer. Also an
+          aspiring graphic designer.
+        </p>
+
+        <a class="btn btn-primary" href="intro.html">
+          Click here for my introduction video
+        </a>
+      </div>
+
+      <div class="hero-image">
+        <img src="profile pic.jpg" alt="Profile photo" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="works" class="works-section">
+    <div class="container">
+      <h2 class="section-title">Works</h2>
+
+      <div class="works-grid">
+        <a href="https://drive.google.com/drive/folders/14WU7tmslK13Js0ekRfBYnX7UNFvQy6B9?usp=drive_link" target="_blank" class="work-card">
+          <img src="Mango drawing.jpeg" alt="Mango drawing" />
+          <h3>A mango drawing</h3>
+          <p>A sketch of a mango.</p>
+        </a>
+
+        <a href="https://drive.google.com/drive/folders/1ovb7FQ1E8zwkdAetdvtFI3bNK8ai86W6?usp=drive_link" target="_blank" class="work-card">
+          <img src="brew heaven.jpeg" alt="Brew Heaven" />
+          <h3>Brew Heaven Logo</h3>
+          <p>A lot different logo with different color palettes about a business called Brew Heaven.</p>
+        </a>
+
+        <a href="https://drive.google.com/drive/folders/1uah7TnxFVZHmayYVfm3FYMM1VjGPKWil?usp=sharing" target="_blank" class="work-card">
+          <img src="innovatechhh.jpeg" alt="Innovatech logo" />
+          <h3>Innovatech Logo</h3>
+          <p>A logo designed by me.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills" class="section-simple">
+    <div class="container">
+      <h2>Skills</h2>
+
+      <div class="skill-item">
+        <h3>Adaptability</h3>
+        <p>
+          I can easily adapt to any kind of design that you want or that you
+          desire.
+        </p>
+      </div>
+
+      <div class="skill-item">
+        <h3>Trendy</h3>
+        <p>
+          Updated on the trends with the current trending design, so I can help
+          you choose based on what is currently popular right now.
+        </p>
+      </div>
+
+      <div class="skill-item">
+        <h3>Committed</h3>
+        <p>
+          As a graduate with a bachelor’s degree, you can obviously see that I’m
+          really committed to something that I want and something that I want to
+          do. It’s also the same with my work, and you can be assured that I am
+          a very committed person and that I will always finish what I started.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section-simple">
+    <div class="container">
+      <h2>About</h2>
+
+      <p>
+        I'm a fresh graduate and a passionate graphic designer with a strong
+        eye for detail and creativity. I specialize in creating modern,
+        visually engaging designs that communicate ideas clearly and
+        effectively. I enjoy working with branding, layout design, and digital
+        graphics, and I'm always excited to learn new tools and techniques. As
+        a motivated beginner in the industry, I'm eager to bring fresh ideas,
+        collaborate with teams, and grow my skills in real-world projects.
+      </p>
+
+      <a
+        class="btn btn-primary"
+        href="cv.html"
+        style="margin-top: 20px; display:inline-block"
+      >
+        Click here for my Curriculum Vitae
+      </a>
+    </div>
+  </section>
+
+
+  <section id="reviews" class="reviews-section">
+    <div class="container">
+      <h2 class="section-title">Reviews</h2>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <p class="review-text">“A very committed graphic designer”</p>
+          <div class="review-profile">
+            <img src="leo.jpeg" alt="Profile" class="review-img" />
+            <div>
+              <h4>Christian Leo Cereno</h4>
+              <span>Graphic Designer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">“A passionate person to its work”</p>
+          <div class="review-profile">
+            <img src="cus2.jpg" alt="Profile" class="review-img" />
+            <div>
+              <h4>Marcus James Tamondong</h4>
+              <span>Entrepreneur</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <p class="review-text">“A respectable graphic designer”</p>
+          <div class="review-profile">
+            <img src="son2.jpeg" alt="Profile" class="review-img" />
+            <div>
+              <h4>Jericson Tuazon</h4>
+              <span>Software Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contacts" class="section-simple">
+    <div class="container">
+      <a
+        href="https://www.facebook.com/andreijoseph.domingo"
+        target="_blank"
+        rel="noopener"
+        class="logo"
+        aria-label="Facebook Profile"
+        >Aj</a
+      >
+      <div class="contact-list">
+        <h2>My Contacts</h2>
+        <p>
+          <a
+            href="https://www.facebook.com/andreijoseph.domingo"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="fb logo.png"
+              alt="Facebook"
+              class="icon"
+            />Andrei Joseph Basa Domingo</a
+          >
+        </p>
+        <p>
+          <a href="mailto:domingoandreijoseph@gmail.com"
+            ><img
+              src="gmail logo.jpg"
+              alt="Email"
+              class="icon"
+            />domingoandreijoseph@gmail.com</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://www.instagram.com/_endrei/"
+            target="_blank"
+            rel="noopener"
+            ><img
+              src="ig logo.png"
+              alt="Instagram"
+              class="icon"
+            />@_endrei</a
+          >
+        </p>
+        <p>
+          <a href="tel:09549931705"
+            ><img
+              src="Telephone logo.png"
+              alt="Phone"
+              class="icon"
+            />09549931705</a
+          >
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Andrei Domingo</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById("navToggle");
+    const mainNav = document.getElementById("mainNav");
+
+    navToggle.addEventListener("click", () => {
+      mainNav.classList.toggle("nav-open");
+      navToggle.classList.toggle("open");
+    });
+
+    mainNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        mainNav.classList.remove("nav-open");
+        navToggle.classList.remove("open");
+      });
+    });
+  </script>
+</body>
+</html>
